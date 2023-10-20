@@ -1,3 +1,10 @@
+<?php 
+session_start();
+session_destay();
+header("Location: login.php");
+exit;
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>

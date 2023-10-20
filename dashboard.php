@@ -1,3 +1,15 @@
+<?php
+session_start();
+
+if (!isset($_SESSION["usuario"])) {
+    header("location:login.php");
+    exit;
+}
+
+echo "Bem-vindo," . $_SESSION ["usuario"] . "!Esta é a página de dashboard.";
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
