@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sessão</title>
+    <title>SESSÃO</title>
 </head>
 <body>
-    <h1>Teste - 1</h1> 
+    <h1>TESTE - 01</h1>
+
+    <div>
+        <?php include_once ('registro.php'); ?>
+    </div>
+
 </body>
 </html>
+<?php
+?>
